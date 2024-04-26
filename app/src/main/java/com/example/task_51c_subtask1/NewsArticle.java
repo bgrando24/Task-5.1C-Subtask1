@@ -1,6 +1,8 @@
 package com.example.task_51c_subtask1;
 
-public class NewsArticle {
+import java.io.Serializable;
+
+public class NewsArticle implements Serializable {
     public int id;
     public String heading;
     public String snippet;
